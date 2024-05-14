@@ -17,9 +17,9 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={clsx(getFonts())}>
-				<Provider>
+				{/* <Provider> */}
 					{children}
-				</Provider>
+				{/* </Provider> */}
 			</body>
 		</html>
 	);
