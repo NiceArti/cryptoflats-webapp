@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary: 0, 0%, 100%, 1;
+
+        --blue-gradient: radial-gradient(circle farthest-side, rgba(0, 149, 255, 0.9), rgba(0, 0, 0, 1));
+    }
+}
+
+@layer base {
+    body {
+      @apply h-screen select-none font-sans text-primary text-sm font-normal;
+    }
+}
